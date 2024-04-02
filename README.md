@@ -3,10 +3,14 @@ Learn to python
 
 #Git Setup 
 --> For initinalization repo 
+
+
         git init
 
         
 --> For git config set up
+
+
         git config --global user.name "username"
         git config --global user.email "email"
 
