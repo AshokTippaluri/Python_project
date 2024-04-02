@@ -2,60 +2,53 @@
 Learn to python
 
 #Git Setup 
+
+
 --> For initinalization repo 
 
 
-        git init
-
-        
+        git init        
 --> For git config set up
 
 
         git config --global user.name "username"
-        git config --global user.email "email"
-
-        
+        git config --global user.email "email"        
 --> For cloning the repo from the git hub
-        git clone <url>
 
-        
+        git clone <url>        
 --> For adding the remote 
-        git remote add python <url>
 
-        
+        git remote add python <url>        
 --> For remotes verbose 
-        git remote -v
 
-        
+        git remote -v        
 --> For working branch details
-        git branch
 
-        
+        git branch        
 --> For GitHub login
-        git remote set-url python https://<username>:<Token>@github.com/<username>/<reponame>.git
 
-        
+        git remote set-url python https://<username>:<Token>@github.com/<username>/<reponame>.git        
 --> For repo fetch
-        git fetch python
 
-        
+        git fetch python        
 --> For logs
-        git log
 
-        
+        git log        
 --> For repo switch
-        git switch main
 
-        
+        git switch main        
 --> For GitHub changes to local
-        git pull python
 
-        
+        git pull python        
 --> For changes to the script
+
         git status
 --> For adding git changes
+
         git add .
 --> For committing changes
+
         git commit -m "test.py"
 --> For pushing the changes to the github
+
         git push python
