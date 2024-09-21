@@ -12,7 +12,7 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
-                python3 jenkins.py
+                python3 jenkins.py --s= ashok
                 '''
             }
         }
