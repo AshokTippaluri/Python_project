@@ -4,8 +4,11 @@ pipeline {
             label 'docker-agent-python'
             }
       }
-    triggers{
-        pollSCM '*/5 * * * *'
+    triggers {
+        // Poll the Git repository every 5 minutes
+        pollSCM('H/5 * * * *')
+    }
+    
     }
     stages {
         stage('Build') {
