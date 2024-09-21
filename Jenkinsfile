@@ -20,7 +20,8 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                python3 Palindrome.py
+                echo "doing test stuff.."
+                python3 Palindrome.py 
                 '''
             }
         }
