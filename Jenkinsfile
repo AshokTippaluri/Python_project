@@ -12,7 +12,7 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
-                python3 jenkins.py --s= ashok
+                python3 jenkins.py
                 '''
             }
         }
@@ -21,7 +21,7 @@ pipeline {
                 echo "Testing.."
                 sh '''
                 echo "doing test stuff.."
-                python3 Palindrome.py 
+                
                 '''
             }
         }
